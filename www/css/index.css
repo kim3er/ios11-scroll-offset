@@ -1,5 +1,5 @@
 html, body {
-    background: src('./img/logo.png');
+    background: red url('../img/logo.png');
     height: 100%;
     margin: 0;
     padding: 0;
@@ -10,7 +10,6 @@ body {
 }
 
 .app {
-    background: red;
     height: 100%;
     margin: 0;
     padding: 0;
