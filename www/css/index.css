@@ -5,6 +5,10 @@ html, body {
     padding: 0;
 }
 
+body {
+    height: calc(100% + 20px);
+}
+
 .app {
     background: red;
     height: 100%;
