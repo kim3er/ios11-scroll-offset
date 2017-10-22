@@ -1,5 +1,5 @@
 html, body {
-    background: yellow;
+    background: src('./img/logo.png');
     height: 100%;
     margin: 0;
     padding: 0;
