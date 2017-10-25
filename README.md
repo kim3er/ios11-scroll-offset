@@ -30,6 +30,13 @@ The same as master branch, but with the [cordova-plugin-wkwebview-engine](https:
 
 After accepting that there are degrees to this problem, I decided to create a branch that more closely reflected the Flood Aware environment.
 
+1. Flood Aware uses images for the background.
+2. The starting postion did not include the viewport fix.
+
+### [realworld-fix](https://github.com/kim3er/ios11-scroll-offset/tree/realworld-fix)
+
+The money shot. 
+
 ## Install<a name="install"></a>
 
 ```
