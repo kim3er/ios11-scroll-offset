@@ -18,13 +18,24 @@ As you can see, as a result of the additional space, the cursor's position is sk
 
 Switching Flood Aware to WKWebView isn't that big a deal, as it's a pretty simple app. But I think of at least one other that is going to give me some grief! C'est la vie.
 
+## The fix
 
+So, what have I got for you, by way of a fix? Three additional branches, that's what.
 
-  with scrollable regions within the page.
+### [wkwebview](https://github.com/kim3er/ios11-scroll-offset/tree/wkwebview)
 
-The bug adds a 20px offset to a scrollable region. The scrollable region renders correctly, the offset only appears after interaction with the element. This repo demonstrates the interaction, using a text box.
+The same as master branch, but with the [cordova-plugin-wkwebview-engine](https://www.npmjs.com/package/cordova-plugin-wkwebview-engine) installed. There was some suggestion that problem would be resolved by doing this. In fact it is, but you get a bar a the bottom of the page instead.
 
-I have a potential workaround, using wkwebview, that can be seen [here](https://github.com/kim3er/ios11-scroll-offset/tree/wkwebview).
+### [realworld](https://github.com/kim3er/ios11-scroll-offset/tree/realworld)
+
+After accepting that there are degrees to this problem, I decided to create a branch that more closely reflected the Flood Aware environment.
+
+1. Flood Aware uses images for the background.
+2. The starting postion did not include the viewport fix.
+
+### [realworld-fix](https://github.com/kim3er/ios11-scroll-offset/tree/realworld-fix)
+
+The money shot. 
 
 ## Install<a name="install"></a>
 
